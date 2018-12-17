@@ -1,0 +1,220 @@
+.lineContainer{
+  width:100%;
+}
+body{
+  background:url("../digimon/digivolve.jpg") !important;
+  color:white;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.part{
+  width:30%;
+  margin-right:5%;
+
+}
+p{
+  margin:0 !important;
+  position:relative;
+  font-size:9px;
+  bottom:10%;
+}
+.digiContainer{
+  width:120px;
+  height:120px;
+  margin-top:5%;
+  border:1px solid purple;
+  background: black;
+  margin-left:15%;
+  color:white;
+
+
+}
+.dn{
+  margin-top:100%;
+  width:100%;
+}
+.mystery{
+  background:#262626;
+  border:2px white solid;
+}
+.question{
+  width:50%;
+  margin-left:25%;
+  margin-top:25%;
+}
+.name{
+  text-align: center;
+  margin-top:15%;
+
+
+}
+.digimon{
+  width:90px;
+  margin-left:5%;
+  height:90px;
+  margin-bottom:15%;
+
+
+}
+@keyframes in{
+0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+
+}
+.ha{
+  margin-left:35%;
+  margin-top:2.5%;
+}
+.diCon{
+  width:10%;
+}
+.lowbar{
+  width:10px;
+  height:100px;
+  margin-left:75%;
+  background:blue;
+  margin-top:10%;
+
+}
+.lineContainer{
+  margin-top:5%;
+  animation: 1s 1 ease-in in;
+}
+.downArrow{
+  width:10px;
+  height:100px;
+  margin-bottom:5%;
+  margin-right:2.5%;
+  background:blue;
+  border-radius:10px;
+  margin-left:25%;
+  margin-top:10%;
+
+
+}
+.arrows{
+
+  width:30%;
+
+
+}
+
+.arrow{
+  position:relative;
+  bottom:50px;
+}
+.beginning{
+  width:1505px;
+  height:10px;
+  animation:4s infinite ease-in-out line;
+  margin-left:40%;
+
+
+}
+.o1{
+  position:absolute;
+  top:-40%;
+}
+.o2{
+  position:absolute;
+  top:5%;
+}
+.champions{
+  position:absolute;
+  left:25%;
+  height:100%;
+}
+.ultras{
+  position:absolute;
+  left:55%;
+  height:100%;
+}
+.megas{
+  position:absolute;
+  left:85%;
+  height:100%;
+}
+.up{
+  width:10px;
+  height:100px;
+  margin-bottom:2.5%;
+  float:right;
+  position:relative;
+  bottom:90px;
+}
+@keyframes line {
+  0%{
+    background:navy;
+  }
+  50%{
+    background:#41A5FF;
+  }
+  100%{
+    background:navy;
+  }
+}
+.down{
+  width:10px;
+  height:100px;
+  margin-top:2.5%;
+  float:right;
+  position:relative;
+  right:10px;
+  bottom:20px;
+
+
+}
+.line{
+  background:navy;
+  border-radius:10px;
+
+
+}
+.lines{
+  background:navy;
+  border-radius:10px;
+  height:10px;
+  width:1000px;
+animation:4s infinite ease-in-out line;
+
+}
+.final{
+  float:left;
+
+}
+.u{
+  position:absolute;
+  top:5%;
+  left:100%;
+}
+.b{
+  position:absolute;
+  top:15%;
+}
+.x{
+  width:200px;
+  height:10px;
+    background:navy;
+
+}
+.complete{
+  animation:4s infinite ease-in-out line;
+}
+.one{
+  position:relative;
+  bottom:18%;
+  left:45%;
+}
+.horizontalArrow{
+  width:150px;
+  height:10px;
+margin-top:5%;
+animation:4s infinite ease-in-out line;
+margin-left:10%;
+  background:blue;
+    border-radius:10px;
+}

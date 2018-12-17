@@ -1,0 +1,59 @@
+
+.digimonlink{
+  width:50%;
+  margin-left:25%;
+  margin-top:2.5%;
+
+}
+.starting{
+  background:url("./../digimon/backgrounds/starting.jpg");
+  padding-bottom:85%;
+
+}
+
+.loginButton{
+  position:absolute;
+  right:5%;
+  top:2.5%;
+  width:100px;
+
+  border-radius:20px;
+  background:purple;
+  border:4px #262626 groove;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.loader{
+  width:40%;
+  margin-left:30%;
+  margin-top:25%;
+
+}
+.loginButton:hover{
+  background:violet;
+}
+@keyframes fader {
+  0%{
+    color:white;
+    opacity:1
+  }
+  50%{
+    color:purple;
+    opacity:.5
+  }
+
+  100%{
+    opacity:1;
+    color:white;
+  }
+}
+
+.starthere{
+  color:white;
+  animation:fader 3s ease-in-out infinite;
+  text-align: center;
+  margin-top:10%;
+  font-family:"Plaster";
+}

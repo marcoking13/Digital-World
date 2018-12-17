@@ -1,0 +1,169 @@
+
+.digimonlink{
+  width:50%;
+  margin-left:25%;
+  margin-top:2.5%;
+
+}
+.starting{
+  background:url("./../digimon/backgrounds/starting.jpg");
+  padding-bottom:85%;
+
+}
+@keyframes in-out{
+  0%{
+    opacity:0
+  }
+  50%{
+    opacity:1
+  }
+  100%{
+    opacity:0
+  }
+
+}
+.ar0{
+  animation: in-out 16s ease-in infinite
+}
+.ar1{
+  animation: in-out 15s ease-in infinite
+}
+.ar2{
+  animation: in-out 14s ease-in infinite
+}
+.ar3{
+  animation: in-out 13s ease-in infinite
+}
+.ar4{
+  animation: in-out 12s ease-in infinite
+}
+.ar5{
+  animation: in-out 11s ease-in infinite
+}
+.ar6{
+  animation: in-out 10s ease-in infinite
+}
+.ar7{
+  animation: in-out 9s ease-in infinite
+}
+.ar8{
+  animation: in-out 8s ease-in infinite
+}
+.ar9{
+  animation: in-out 7s ease-in infinite
+}
+.ar10{
+  animation: in-out 6s ease-in infinite
+}
+.ar11{
+  animation: in-out 5s ease-in infinite
+}
+.ar12{
+  animation: in-out 4s ease-in infinite
+}
+.ar13{
+  animation: in-out 3s ease-in infinite
+}
+.ar14{
+  animation: in-out 2s ease-in infinite
+}
+.ar15{
+  animation: in-out 1s ease-in infinite
+}
+@keyframes ino{
+  0%{
+    color:#262626
+  }
+  100%{
+    color:red
+  }
+}
+@keyframes ino2{
+  0%{
+
+    opacity:0;
+  }
+  100%{
+
+    opacity:1;
+  }
+}
+.gIcon{
+  animation: ino2 .5s ease-in 1;
+
+}
+.active{
+  border:2px solid purple;
+}
+.girl{
+  color:red;
+  text-align: left;
+  margin-top:70px;
+
+}
+.gg{
+  font-weight: bold;font-family: monospace; font-size:44px;
+  margin-top:25%;
+}
+.activeg{
+  font-family: cursive !important;
+}
+.boy{
+  text-align: right;
+  color:blue;
+}
+.question{
+  animation: ino .5s ease-in 1;
+}
+.form-control {
+  animation: ino2 .5s ease-in 1;
+}
+.arrows{
+  opacity:0;
+}
+.loginButton{
+  position:absolute;
+  right:5%;
+  top:2.5%;
+  width:100px;
+
+  border-radius:20px;
+  background:purple;
+  border:4px #262626 groove;
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+.loader{
+  width:40%;
+  margin-left:30%;
+  margin-top:25%;
+
+}
+.loginButton:hover{
+  background:violet;
+}
+@keyframes fader {
+  0%{
+    color:white;
+    opacity:1
+  }
+  50%{
+    color:purple;
+    opacity:.5
+  }
+
+  100%{
+    opacity:1;
+    color:white;
+  }
+}
+
+.starthere{
+  color:white;
+  animation:fader 3s ease-in-out infinite;
+  text-align: center;
+  margin-top:10%;
+  font-family:"Plaster";
+}

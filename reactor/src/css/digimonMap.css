@@ -1,0 +1,45 @@
+.map{
+  position: absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  width:100%;
+  height:700px;
+  z-index:-99
+}
+.mapB{
+  animation: gho .5s 1 ease-in;
+}
+@keyframes gho {
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1
+  }
+}
+.mapB{
+  width:100%;
+  height:700px;
+  z-index:-99
+}
+@keyframes redness{
+  0%{
+    background:maroon
+  }
+  50%{
+    background:red
+  }
+  100%{
+    background:maroon
+  }
+}
+.mark{
+  animation: 5s infinite ease-in-out redness;
+  border-radius:50%;
+  background:red;
+  width:25px;
+  border:4px solid maroon;
+  height:25px;
+  position:absolute;
+}

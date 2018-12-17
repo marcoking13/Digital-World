@@ -1,0 +1,189 @@
+.d3{
+  width:70%;
+  margin-top:5%;
+  margin-left:10%;
+
+}
+.imageContainer{
+  width:30%;
+  float:left;
+}
+.moveContainer{
+  width:40%;
+  position:absolute;
+  top:75%;
+  right:1%;
+  height:100px !important;
+}
+.moveDetailContainer{
+  width:50%;
+  position:absolute;
+  top:80%;
+
+  left:1%;
+  height:100px !important;
+  background:black;
+}
+.g{
+  opacity:0;
+}
+.profileContainer{
+  width:110%;
+padding-left:5%;
+border-radius:0px;
+
+  border:1px solid red;
+  margin-top:5%;
+animation: 1s 1 ease-in in;
+padding-top:5%;
+  background:black !important;
+  margin-bottom:5%;
+
+
+}
+.nn{
+  position:relative;
+
+  display:inline;
+  background:red;
+
+
+}
+.sw{
+  width:2%;
+  float:right;
+}
+.ash{
+  background:#262626 !important;
+  width:100%;
+}
+.level{
+  position:absolute;
+  left:2%;
+  top:20%;
+  float:left;
+  font-weight: bold;
+  color:#e6e6e6;
+
+}
+.statName{
+  margin-top:2.5%;
+  color:white;
+  font-weight: bold;
+}
+.statNameContainer {
+  width:10%;
+  float:left;
+  margin-top:10%;
+}
+@keyframes in{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+.o{
+  color:orange;
+}
+.sp{
+  color:green;
+}
+.a{
+  color:red;
+}
+.s{
+  color:purple;
+}
+.d{
+  color:blue;
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+.orange{
+  background-color: orange;
+}
+.purple{
+  background-color: purple;
+}
+.bar{
+  width:300px;
+  height:20px;
+}
+.ba{
+  font-family: fantasy;
+  color:pink !important;
+  border:pink 1px solid;
+  width:20%;
+  margin-left:40%;
+}
+.ra{
+  font-family: fantasy;
+  color:green !important;
+  border:green 1px solid;
+  width:20%;
+  margin-left:40%;
+}
+.emblem{
+  width:5%;
+  float:left;
+  position:absolute;
+  top:20%;
+  left:25%;
+}
+.moves{
+  float:right;
+  margin-right:2%;
+}
+.ca{
+  font-family: fantasy;
+  color:orange !important;
+  border:orange 1px solid;
+  width:20%;
+  margin-left:40%;
+}
+.ua{
+  font-family: fantasy;
+  color:purple !important;
+  border:purple 1px solid;
+  width:20%;
+  margin-left:40%;
+}
+.ma{
+  font-family: fantasy;
+  color:red !important;
+  border:red 1px solid;
+  width:20%;
+  margin-left:40%;
+}
+.barContainer{
+  float:left;
+  width:20%;
+  border-right:1px solid right;
+  padding-right:1%;
+  margin-top:10%;
+}
+.blood{
+  height:20px;
+  width:150px;
+
+  margin-top:4%;
+  border-radius: 10px;
+}
+.digiT{
+  color:white;
+  text-align: center;
+  position:relative;
+  top:25px;
+}
+.moveContainer{
+  padding-top:5%;
+}
